@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('pancakes-rilakkuma.gif'); /* Replace with the path or URL to your background GIF */
+    background-repeat: repeat; /* Set to repeat the background */
+    background-size: auto; /* Use the original size of the background image */
+    background-position: center; /* Center the background image */
+    background-color: rgba(255, 255, 255, 0.034); /* Set the background color with opacity */
+    background-color: rgb(255, 232, 244);
+    color: rgb(56, 8, 8); /* Set text color to white for better visibility on the background */
+
+}
+
+.container {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+#valentinegif {
+    align-items: center;
+  
+}
+
+#sectionquestion {
+    margin-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(244, 250, 255);
+    padding: 10px 10px;
+    border: 2px;
+    box-shadow: 20px;
+    border-radius: 40px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.yes-btn {
+    background-color: lightpink;
+}
+
+.no-btn {
+    background-color: lightpink;
+    margin-left: 20px; /* Add some space between buttons */
+}
+
+
+/* Hover styles for the buttons */
+.yes-btn:hover {
+    background-color: rgb(225, 255, 114);
+}
+
+.no-btn:hover {
+    background-color: rgb(255, 108, 133);
+}
